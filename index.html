@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="<%= GAME_AUTHOR %>" />
+    <meta name="description" content="<%= GAME_DESCRIPTION %>" />
+    <meta name="keywords" content="<%= GAME_KEYWORDS %>" />
+
+    <meta property="og:title" content="<%= GAME_TITLE %>" />
+    <meta property="og:description" content="<%= GAME_DESCRIPTION %>" />
+    <meta property="og:url" content="<%= GAME_URL %>" />
+    <meta property="og:image" content="./preview.png" />
+    <meta property="og:type" content="website" />
+
+    <title><%= GAME_TITLE %></title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="game">
+      <div class="game__wrap">
+        <header id="header"></header>
+        <main id="<%= GAME_CANVAS_ID %>" class="game__main"></main>
+        <div id="info"></div>
+        <footer id="footer"></footer>
+      </div>
+    </div>
+
+    <script type="module" src="/src/index.ts"></script>
+  </body>
+</html>

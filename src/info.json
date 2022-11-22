@@ -1,0 +1,16 @@
+{
+  "name": "Phaser 3 Vite",
+  "version": "0.0.1",
+  "description": "A boilerplate for games made with Phaser 3 and Vite",
+  "repository": "https://github.com/yuigoto/phaser3-vite",
+  "url": "https://github.com/yuigoto/phaser3-vite",
+  "keywords": ["phaser", "game", "boilerplate", "javascript", "typescript"],
+  "author": "Fabio Y. Goto",
+  "lang": "en",
+  "copyright": "©2022 YUITI",
+  "license": "MIT",
+  "controls": [
+    "Place your controls in this array. And they will be rendered on the descriptions.",
+    "Well, at least they should be rendered."
+  ]
+}
